@@ -104,7 +104,7 @@ img {
 
 @media (min-width: 930px) {
   .container {
-    padding: 3rem 5rem;
+    padding: 2rem 5rem;
   }
   .ham,
   .close {
@@ -204,12 +204,12 @@ img {
     margin: 4.5rem 0;
   }
   .image-container {
-    width: 450px;
-    height: 485px;
+    height: 550px;
   }
   .hero__image {
     display: inline-block;
     height: 100%;
+    object-fit: contain;
   }
   .btn-box input {
     flex-grow: 0;
